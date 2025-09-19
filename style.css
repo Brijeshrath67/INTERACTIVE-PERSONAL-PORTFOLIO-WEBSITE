@@ -1,0 +1,174 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  background:linear-gradient(to right, #42035fc3, #05668976);
+  color: #f5f5f5;
+}
+
+/* Navigation */
+header {
+  background:linear-gradient(to right, #42035fc3, #05668976);
+  color: white;
+  padding: 15px 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #42035fc3, #05668976);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero h1 span {
+  color: yellow;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff5722;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e64a19;
+}
+
+/* Sections */
+section {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about-container img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Skills */
+.skills-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.skill {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.progress {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.bar {
+  height: 10px;
+  background: #00bcd4;
+  border-radius: 5px;
+}
+
+/* Projects */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 280px;
+  background: linear-gradient(to right, #42035fc3, #05668976);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Contact */
+#contact p {
+  margin: 10px 0;
+}
+
+#contact a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background:linear-gradient(to right, #42035fc3, #05668976);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
